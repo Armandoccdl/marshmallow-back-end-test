@@ -1,4 +1,4 @@
-This code is made by Armando Conejero and it solves the following problem:
+This code was made by Armando Conejero and it solves the following problem:
 
 # Marshmallow Java Backend Test
 
