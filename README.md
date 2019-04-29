@@ -83,7 +83,7 @@ This test is based on the following gist https://gist.github.com/alirussell/9a51
 # Deployment
  In order to deploy the project we have to follow these steps:
  
-* mvn clean install
+* Run in the console : mvn clean install
 * Run in the console : mvn spring-boot:run
 * Curl the server: 
 ```
