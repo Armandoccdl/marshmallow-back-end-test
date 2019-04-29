@@ -79,3 +79,39 @@ We will especially consider:
 * Actually solving of the problem
 
 This test is based on the following gist https://gist.github.com/alirussell/9a519e07128b7eafcb50
+
+# Deployment
+ In order to deploy the project we have to follow these steps:
+ 
+* Run in the console : mvn spring-boot:run
+* Curl the server: 
+```
+curl --request POST \
+  --url http://localhost:8080/clean \
+  --header 'content-type: application/json' \
+  --data '{
+	"areaSize": [
+		5,
+		5
+	],
+	"startingPosition": [
+		1,
+		2
+	],
+	"oilPatches": [
+		[
+			1,
+			0
+		],
+		[
+			2,
+			2
+		],
+		[
+			2,
+			3
+		]
+	],
+	"navigationInstructions": "NNESEESWNWW"
+}'
+```
