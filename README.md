@@ -1,6 +1,6 @@
 This code was made by Armando Conejero and it solves the following problem:
 
-# Marshmallow Java Backend Test
+# Robotic Cleaner Java Backend Test
 
 Your task is to write a Java based web service that navigates an imaginary robotic cleaner through an oil spill in the sea.
 
